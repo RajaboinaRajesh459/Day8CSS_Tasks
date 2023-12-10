@@ -1,0 +1,86 @@
+body{
+    background-image: url(./images/WhatsApp\ Image\ 2023-12-08\ at\ 12.04.58_22564628.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block1{
+    border: 1px solid;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    background-color: purple;
+    animation: windows 6s linear infinite ;
+    animation-delay: 0;
+}
+.block2{
+    border: 1px solid;
+    vertical-align: middle;
+   text-align: center;
+   align-items: center;
+   background-color: red;
+   animation: windows 6s linear infinite ;
+   animation-delay: 1s;
+}
+.block3{
+    border: 1px solid;
+   vertical-align: middle;
+   text-align: center;
+   align-items: center;
+   background-color: yellow;
+   animation: windows 6s linear infinite ;
+   animation-delay: 2s;
+}
+.block4{
+    border: 1px solid;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    background-color: Green;
+    animation: windows 6s linear infinite ;
+    animation-delay: 3s;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    position: relative;
+    top: 200px;
+    left: 480px;
+    
+}
+@keyframes windows {
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: darkblue;
+    }
+    75%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: cornflowerblue;
+    }
+    
+}
+h1{
+    color: whitesmoke;
+    position: relative;
+    left: 490px;
+    top: 200px;
+    animation: demo 2s linear infinite;
+}
+@keyframes demo {
+    
+    from{
+        color: gray;
+    }
+    to{
+        color: blueviolet;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.Block1{
+    border: solid 1px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: transform 1s ease;
+    animation: block 1s linear infinite forwards;
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+.Block1:hover{
+    transition:2s linear ;
+    transform: translateX(500px);
+    
+}
+@keyframes block {
+    0%{
+        /* transform: rotate(0deg); */
+        background-color: azure;
+    }
+    100%{
+        /* transform: rotate(360deg); */
+        background-color: darkcyan;
+    }
+    
+}
